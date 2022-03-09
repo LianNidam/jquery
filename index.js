@@ -1,4 +1,4 @@
 
-$("h1").on("mousover",function()){
-
-}
+$(document).keypress(function(event){
+  $("h1").text(event.key);
+});
